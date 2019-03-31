@@ -1,0 +1,25 @@
+*-workspace
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+huntweb/node_modules
+huntweb/.pnp
+huntweb/.pnp.js
+
+# testing
+huntweb/coverage
+
+# production
+huntweb/build
+
+# misc
+.DS_Store
+huntweb/.DS_Store
+huntweb/.env.local
+huntweb/.env.development.local
+huntweb/.env.test.local
+huntweb/.env.production.local
+
+huntweb/npm-debug.log*
+huntweb/yarn-debug.log*
+huntweb/yarn-error.log*
